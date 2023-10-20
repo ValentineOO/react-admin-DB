@@ -114,3 +114,55 @@ export const menu = [
     ],
   },
 ];
+
+export const topDealUsers = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600",
+    username: "Alice Johnson",
+    email: "alice.j@email.com",
+    amount: "7.50",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/12903345/pexels-photo-12903345.jpeg?auto=compress&cs=tinysrgb&w=600",
+    username: "David Smith",
+    email: "david.s@email.com",
+    amount: "4.99",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/160414/female-portrait-studio-attractive-160414.jpeg?auto=compress&cs=tinysrgb&w=600",
+    username: " Emily Brown",
+    email: "emily.b@email.com",
+    amount: "3.75",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/18659930/pexels-photo-18659930/free-photo-of-man-wearing-a-sweater.jpeg?auto=compress&cs=tinysrgb&w=400",
+    username: "James Davis",
+    email: "james@email.com",
+    amount: "5.20",
+  },
+  {
+    id: 5,
+    img: "https://images.pexels.com/photos/1624229/pexels-photo-1624229.jpeg?auto=compress&cs=tinysrgb&w=600",
+    username: "Sarah Wilson",
+    email: "sarah.w@gmail.com",
+    amount: "2.99",
+  },
+  {
+    id: 6,
+    img: "https://images.pexels.com/photos/18562277/pexels-photo-18562277/free-photo-of-portrait-of-a-man-with-a-beard-standing-outside-and-smiling.jpeg?auto=compress&cs=tinysrgb&w=600",
+    username: "michael Clark",
+    email: "micheal.c@gmail.com",
+    amount: "6.10",
+  },
+  {
+    id: 7,
+    img: "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=600",
+    username: "Olivia White",
+    email: "Oliva.w@gmail.com",
+    amount: "1.95",
+  },
+];
