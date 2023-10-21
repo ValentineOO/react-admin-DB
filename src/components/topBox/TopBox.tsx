@@ -24,5 +24,3 @@ const TopBox = () => {
 };
 
 export default TopBox;
-
-
