@@ -37,7 +37,15 @@ function App() {
         },
         {
           path: "/users",
-          element: <Users />,
+          element: <Users />, 
+        },
+        {
+          path: "/products",
+          element: <Products />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
         },
         {
           path: "/products",
