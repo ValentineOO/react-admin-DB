@@ -5,6 +5,8 @@ import Products from "./pages/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
+import User from "./pages/user/user";
+import Product from "./pages/product/product";
 import Login from "./pages/login/Login";
 import "./styles/global.scss";
 
@@ -37,7 +39,7 @@ function App() {
         },
         {
           path: "/users",
-          element: <Users />, 
+          element: <Users />,
         },
         {
           path: "/products",
@@ -48,8 +50,8 @@ function App() {
           element: <User />,
         },
         {
-          path: "/products",
-          element: <Products />,
+          path: "/products/:id",
+          element: <Product />,
         },
       ],
     },
